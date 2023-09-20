@@ -1,0 +1,137 @@
+@import url('default.css');
+.header {
+    padding: 27px 0 33px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.header__inner {
+    display: flex;
+    gap: 102px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    flex: 1 1 auto;
+    display: flex;
+    gap: 162px;
+    align-items: center;
+}
+.header__logo {
+    max-width: 138px;
+}
+.header__nav {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    position: relative;
+}
+.header__nav::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    left: -81px;
+    width: 1.5px;
+    background-color: #96B675;
+}
+.nav__elem {
+    transition: .2s ease-out;
+}
+.nav__elem:hover {
+    color: #96B675;
+}
+.header__nav .dot {
+    position: absolute;
+    bottom: -10px;
+    width: 5px;
+    height: 5px;
+    background: #96B675;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .header__nav a:nth-child(1):hover ~ .dot {
+    transform: translateX(30px);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  .header__nav a:nth-child(2):hover ~ .dot {
+    transform: translateX(135px);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  .header__nav a:nth-child(3):hover ~ .dot {
+    transform: translateX(255px);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
+.header__btns {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.cart__btn {
+    transition: .2s ease-out;
+}
+.cart__btn:hover {
+    transform: scale(0.95);
+}
+.entry {
+    border: 2px solid #67A45D;
+    border-radius: 15px;
+    padding: 15px 33px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    transition: .2s ease-out;
+}
+.entry:hover{
+    background-color: #96B675;
+    color: white;
+    border: 2px solid #96B675;
+}
+
+
+
+.footer {
+    padding: 46px 0;
+    background-color: #2A4326;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo {
+    max-width: 138px;
+}
+.footer__nav {
+    display: flex;
+    gap: 45px;
+}
+.footer-nav__elem:hover {
+    text-shadow: 0 0 1px #FFFFFF;
+}
+.footer-nav__elem {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    transition: .2s ease-out;
+}
+.footer__contacts {
+
+}
+.contacts__item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contacts__item:first-child{
+    padding-bottom: 20px;
+}
+.contacts__icon {
+}
+.contacts__txt {
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}

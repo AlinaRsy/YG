@@ -1,0 +1,233 @@
+@import url('default.css');
+@import url('header-footer.css');
+
+
+body{
+    letter-spacing: 0.1em;
+}
+.intro {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85.42%, #FFFFFF 100%), linear-gradient(89.91deg, #FFFFFF 0.09%, rgba(255, 255, 255, 0) 99.93%), url('../assets/img/main/bannerimgbetter.jpg') right/45% no-repeat;
+}
+
+
+/* HEADER */
+
+.header {
+}
+.headermain__inner {
+    padding-top: 29px;
+    display: flex;
+    gap: 102px;
+    align-items: center;
+}
+.headermain__logo {
+    max-width: 138px;
+}
+.headermain__nav {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.nav__elem {
+    transition: .2s ease-out;
+}
+.headermain__btns {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.cart__btn {
+    transition: .2s ease-out;
+}
+.entry {
+    border: 2px solid #67A45D;
+    border-radius: 15px;
+    padding: 15px 33px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    transition: .2s ease-out;
+}
+
+
+/* BANNER */
+
+.banner {
+    padding: 141px 0 222px 0;
+}
+.container {
+}
+.banner__inner {
+    max-width: 773px;
+}
+.banner__title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 75px;
+}
+.banner__text {
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555; 
+}
+.banner__btns {
+    display: flex;
+    gap: 40px;
+}
+.banner__btns a{
+    padding: 13px 50px;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+
+
+
+/* CATEGOTIES */
+
+.categories {
+    padding: 100px 0 110px 0;
+}
+.categories__title {
+    margin-bottom: 70px;
+}
+.categories__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.categories__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories__img {
+    margin-bottom: 20px;
+    
+}
+.categories__img img{
+    transition: .2s ease-out;
+}
+.categories__name {
+    font-size: 20px;
+    transition: .2s ease-out;
+}
+.categories__item:hover .categories__img img{
+    transform: translateX(20px);
+}
+.categories__item:hover .categories__name{
+    transform: translateX(-20px);
+}
+
+
+
+/* RECOMMENDATION */
+
+.recommendation {
+    padding-bottom: 100px;
+}
+.recommendation__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.recommendation__title {
+}
+.recommendation__link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.recommendation__row {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.recommendation__card {
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 23%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.recommendation__img {
+    height: 290px;
+    width: 310px;
+}
+.recommendation__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.recommendation__body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 auto;
+    padding: 15px 20px 20px 20px;
+}
+.recommendation__name {
+    flex: 1 1 auto;
+    font-size: 20px;
+    line-height: 23px;
+}
+.recommendation__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommendation__price {
+    font-weight: 600;
+    font-size: 26px;
+}
+.recommendation__btn {
+    font-size: 20px;
+    padding: 11px 26px;
+    border-radius: 14px;
+}
+
+
+/* SUBCBSCRIBE */
+
+.subscribe {
+    padding: 55px 0 95px 0;
+    background: linear-gradient(270deg, #F4F4F4 56%, rgba(217, 217, 217, 0) 68.49%), url('../assets/img/main/podpiska.png') left/45% no-repeat;
+}
+.subscribe__inner {
+}
+.subscribe__title {
+    text-align: center;
+    font-size: 40px;
+    color: #2A4326;
+    letter-spacing: 0;
+    margin-bottom: 90px;
+}
+.subscribe__title span{
+    color: #67A45D;
+    font-weight: 600;
+}
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.subscribe__input {
+    margin-bottom: 50px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    width: 550px;
+}
+.subscribe__input::placeholder{
+    font-weight: 400;
+font-size: 16px;
+color: #96B675;
+}
+.subscribe__btn {
+    font-weight: 400;
+    padding: 13px 38px;
+    border-radius: 14px;
+}

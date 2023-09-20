@@ -1,0 +1,132 @@
+@import url(default.css);
+@import url(header-footer.css);
+
+
+.about {
+    padding: 100px 0 33px 0;
+}
+.about__title {
+    margin-bottom: 36px;
+}
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.abot__text {
+    line-height: 24px;
+margin-top: 25px;
+letter-spacing: 0.01em;
+width: 693px;
+}
+.about__img {
+    display: block;
+    max-width: 660px;
+}
+
+/* PLUSES */
+  
+.pluses {
+    padding-bottom: 70px;
+}
+.pluses__title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.pluses__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pluses__card {
+    max-width: 310px;
+    display: flex;
+    gap: 15px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1), 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px 10px 36px 10px;
+    transition: ease-in-out .05s;
+}
+.pluses__card:hover{
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+}
+.pluses__img {
+    transform: translateY(20%);
+}
+.pluses__body {
+}
+.pluses__name {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.pluses__text {
+    line-height: 24px;
+}
+
+
+/* CONTACTS */
+
+
+.contacts {
+    padding: 70px 0 90px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contacts__inner {
+    margin-top: 45px;
+    max-width: 512px;
+    
+}
+h4{
+    font-size: 32px;
+letter-spacing: 0.01em;
+color: #2A4326;
+}
+.contacts__title {
+    margin-bottom: 50px;
+}
+.contacts__text {
+    line-height: 24px;
+}
+
+
+.contacts__subscribe {
+    background: url('../assets/img/about/subscribe.png');
+    border-radius: 15px;
+    max-width: 710px;
+    padding: 45px 51px 110px 51px;
+}
+.subscribe__title {
+    line-height: 38px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.subscribe__title span{
+    color: #67A45D;
+    font-weight: 600;
+}
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe__input {
+    padding: 15px 20px;
+    margin-bottom: 60px;
+    width: 550px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.subscribe__input::placeholder{
+    font-size: 16px;
+    color: #67A45D;
+}
+.subscribe__btn{
+    
+    font-size: 20px;
+    padding: 13px 38px;
+    border-radius: 15px;
+    font-weight: 400;
+}

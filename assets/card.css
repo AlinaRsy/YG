@@ -1,0 +1,87 @@
+@import url(default.css);
+@import url(header-footer.css);
+
+
+.card {
+    padding: 40px 0 120px 0;
+}
+.card__back {
+    display: inline-block;
+    font-size: 18px;
+padding: 10px 24px;
+border: 2px solid #96B675;
+border-radius: 10px;
+transition: .2s ease-out;
+margin-bottom: 40px;
+}
+.card__back:hover{
+    background-color: #96B675;
+    color: white;
+}
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+.card__img {
+    width: 500px;
+    height: 500px;
+    
+}
+.card__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.card__info {
+    max-width: 750px;
+}
+.card__name {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    
+    color: #131313;    
+    margin-bottom: 20px;
+}
+.card__stat {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.card__article {
+    font-size: 16px;
+    
+    color: #9D9D9D;
+}
+.card__likes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card__text {
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+.card__btns {
+    display: flex;
+    align-items: center;
+}
+.card__price {
+    font-weight: 600;
+    font-size: 34px;
+    color: #2A4326;
+    margin-right: 60px;
+}
+.card__update {
+    padding: 12px 25px;
+    margin-right: 20px;
+}
+.card__delete {
+    padding: 12px 55px;
+    color: #67A45D;
+}

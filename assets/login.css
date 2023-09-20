@@ -1,0 +1,101 @@
+@import url(default.css);
+@import url(header-footer.css);
+
+
+
+.login {
+
+    padding: 30px 66px 40px 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    max-width: 430px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+.login__title {
+    font-weight: 500;
+font-size: 20px;
+margin-bottom: 33px;
+}
+.login__label{
+    margin-bottom: 15px;
+    color: #555555;
+}
+.login__telephone {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+.phone__select {
+    cursor: pointer;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 13px;
+    background: rgba(150, 182, 117, 0.19);
+    border: 1px solid #96B675;
+    border-radius: 10px;
+}
+
+.login__input {
+    border: 1px solid #96B675;
+    border-radius: 10px;
+    width: 220px;
+    height: 40px
+}
+.btn {
+}
+.login__btn {
+    width: 100%;
+    border-radius: 10px;
+    padding: 11px 0;
+    margin-bottom: 40px;
+}
+.login__cheks {
+}
+
+
+.cart__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+.cart__checkbox:first-child{
+    margin-bottom: 15px;
+}
+.cart__checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.cart__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 2px solid #67A45D;
+}
+.cart__checkbox input:checked ~ .cart__checkmark {
+    background-color: #67A45D;
+}
+.cart__checkmark:after {
+    padding: 1px;
+    content: url('img/icons/checkmark.svg');
+    position: absolute;
+    display: none;
+}
+.cart__checkbox input:checked ~ .cart__checkmark:after {
+    display: block;
+}
